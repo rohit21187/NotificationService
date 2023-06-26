@@ -1,0 +1,16 @@
+{
+  "name": "web-socket-poc",
+  "version": "1.0.0",
+  "description": "poc of websocket to send notification",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lambda-log": "^3.1.0",
+    "serverless-http": "^3.1.1",
+    "serverless-websockets-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-apigatewaymanagementapi": "^3.358.0",
+    "@aws-sdk/client-dynamodb": "^3.358.0",
+    "@aws-sdk/lib-dynamodb": "^3.358.0"
+  }
+}
